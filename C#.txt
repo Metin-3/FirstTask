@@ -1,0 +1,167 @@
+Task-1
+	using System;
+
+	namespace ConsoleApp1
+	{
+    	internal class Program
+    	{
+        	static void Main(string[] args)
+        	{
+            	int firstNum = 6;
+            	int secondNum = 9;
+
+            	Console.WriteLine("Multiplication: " + firstNum * secondNum);
+        	}
+    	}
+	}
+
+
+
+
+Task-2
+	using System;
+	namespace ConsoleApp2
+	{
+    	internal class Program
+    	{
+        	static void Main(string[] args)
+        	{
+            	int number = 4;
+            	int power = 3;
+
+            	Console.WriteLine("Power of number: "+ Math.Pow(number, power));
+        	}
+    	}
+	}
+
+
+
+
+Task-3
+	using System;
+	namespace ConsoleApp3
+	{
+    	internal class Program
+    	{
+        	static void Main(string[] args)
+        	{
+            	int number = 891;
+
+            	int valume = 891 / 10;
+
+            	Console.WriteLine("Valume: " + valume);
+        	}
+    	}
+	}
+
+
+
+Task-4
+	using System;
+	namespace ConsoleApp4
+	{
+    	internal class Program
+    	{
+        	static void Main(string[] args)
+        	{
+            	int number = 783;
+
+            	Console.WriteLine("Valume: " + 783 % 10);
+        	}
+    	}
+	}
+
+
+Task-5
+	using System;
+	namespace ConsoleApp5
+	{
+    	internal class Program
+    	{
+        	static void Main(string[] args)
+        	{
+            	int firstNum = 5078;
+
+            	int num1 = 5078 / 1000;
+            	int num2 = (5078 / 100) % 10;
+            	int num3 = (5078 / 10) % 10;
+            	int num4 = 5078 % 10;
+
+            	string newNumber = num4 + "" + num3 + "" + num2 + "" + num1;
+
+            	Console.WriteLine("New Number: " + newNumber);
+        	}
+    	}
+	}
+
+
+
+
+
+
+
+
+Task-6
+	using System;
+	namespace ConsoleApp6
+	{
+    	internal class Program
+    	{
+        	static void Main(string[] args)
+        	{
+            	int hesen = 54;
+            	int pirojki = 7;
+
+            	int pirojkiNum = hesen / pirojki;
+
+            	Console.WriteLine("Number of pirojki: "+ pirojkiNum);
+        	}
+    	}
+	}
+
+
+
+Task-7
+	using System;
+	namespace ConsoleApp7
+	{
+    	internal class Program
+    	{
+        	static void Main(string[] args)
+        	{
+            	int kubTil = 6 ;
+
+            	Console.WriteLine("Kubun sethinin sahesi: " +  Math.Pow(kubTil,2));
+            	Console.WriteLine("Kubun hecmi: " + Math.Pow(kubTil,3));
+        	}
+    	}
+	}
+
+
+
+
+
+
+Task-8
+	using System;
+	namespace ConsoleApp8
+	{
+    	internal class Program
+    	{
+        	static void Main(string[] args)
+        	{
+            	int num1 = 234;
+
+            	int num2 = 234 / 10;
+
+            	int firstNum1 = num2 / 10;
+            	int secondNum1 = num2 % 10;
+
+            	int num3 = num1 % 10;
+
+            	string num4 = num3 + "" + firstNum1 + "" + secondNum1;
+
+            	Console.WriteLine("New Number: "+ num4);
+        	}
+    	}
+	}
